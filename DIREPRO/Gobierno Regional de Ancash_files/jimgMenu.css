@@ -1,0 +1,65 @@
+.jimgMenu {
+	position: relative;
+	width: 700px;
+	height: 200px;
+	overflow: hidden;
+	margin-bottom: -2px;
+	margin-left: -5px;
+	margin-right: 0px;
+	margin-top: -5px;
+}
+
+.jimgMenu ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 200px;
+	width: 1340px;
+	
+	}
+
+.jimgMenu ul li {
+	float: left;
+}
+
+.jimgMenu ul li a {
+	text-indent: -1000px;
+	background:#FFFFFF none repeat scroll 0%;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:78px;
+	height: 200px;
+}
+
+.jimgMenu ul li.tupa a {
+	background: url(images/tupa.jpg) repeat scroll 0%;
+}
+.jimgMenu ul li.rof a {
+	background: url(images/rof.jpg) repeat scroll 0%;
+}
+.jimgMenu ul li.mof a {
+	background: url(images/mof.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.organigrama a {
+	background: url(images/organigrama.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.pei a {
+	background: url(images/pei.jpg) repeat scroll 0%;
+}
+.jimgMenu ul li.cap a {
+	background: url(images/cap.jpg) repeat scroll 0%;
+}
+
+.jimgMenu ul li.mapro a {
+	background: url(images/mapro.jpg) repeat scroll 0%;
+	min-width: 210px;
+	
+}
+
+.clear {
+	clear: both;
+}
