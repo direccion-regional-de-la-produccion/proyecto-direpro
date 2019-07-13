@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    /*background-image: linear-gradient(135deg, rgba(31,123,229,1) 0%, rgba(58,139,232,1) 47%, rgba(70,153,234,1) 92%, rgba(72,156,234,1) 100%);*/
+    background: url(../img/pesca.JPG) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+.cont{
+
+  top:300px;
+  left:600px;
+  right:800px;
+  width: 800px;
+  height: 190px;
+  background:#363838;
+  position: relative;
+  border-radius: 22px 22px 22px 22px;
+  opacity: 0.9;
+  filter:alpha (opacity:30);
+}
+
+
+
+p{ color:white;
+  position:absolute;
+  top:100px;
+  bottom:0px;
+  right:80px;
+  left:200px;
+  font-size: 20px;
+}
+
+a{ color:white;
+  position:absolute;
+  top:40px;
+  bottom:30px;
+  right:180px;
+  left:250px;
+  font-size: 20px;
+}
